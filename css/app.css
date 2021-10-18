@@ -739,6 +739,14 @@ section {
     display: none;
   }
 
+  .reveal-gallery .rg__text {
+    display: flex;
+  }
+
+  .reveal-gallery .rg__text .rg__text--copy {
+    display: none;
+  }
+
   .stage__heading {
     margin: 0 calc(30vw + var(--h-gutter)) var(--v-spacing) 3vw;
   }
