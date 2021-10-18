@@ -3,7 +3,7 @@
 
 This project has been inspired by award-winning website Leonie Hendrikse & Jeroen Stock – stockdutchdesign.com.
 
-![demo](https://raw.githubusercontent.com/gsap-bella-project/master/img/og.png)
+![demo](https://raw.githubusercontent.com/crissesoto/gsap-bella-project/master/img/og.png)
 
 ## Built with:
 
