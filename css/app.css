@@ -710,15 +710,52 @@ section {
   Media Queries
  ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (max-width: 767px) {
 
-}
+  .loader__image, 
+  .loader .inner, 
+  .loader__content .inner, 
+  .loader .progress {
+    width: 70vw;
+  }
 
-@media only screen and (min-width: 768px) {
+  .loader__title {
+    font-size: 9vw;
+  }
 
+  .has-scrolled .burger {
+    transform: translateX(0%);
+  } 
+  .main-nav {
+    right: 90px;
+  }
+  .main-nav li:nth-child(3),
+  .main-nav li:nth-child(4),
+  .main-nav li:nth-child(5) {
+    display: none;
+  }
 
-}
+  .rg__text {
+    display: none;
+  }
 
-@media only screen and (min-width: 1140px) {
+  .stage__heading {
+    margin: 0 calc(30vw + var(--h-gutter)) var(--v-spacing) 3vw;
+  }
 
+  #stage4 .stage__heading{
+    margin-bottom: 0;
+  }
+  
+  .stage__text {
+    display: none;
+  }
+
+  .contact .blog__image {
+    margin: 0 6% 0 60%;
+  }
+
+  .contact .blog__text {
+    left: calc(0vw + var(--h-gutter));
+  }
 }
